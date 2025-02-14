@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #game-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  h1 {
+    color: #e91e63;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #story {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #puzzle {
+    margin-bottom: 20px;
+  }
+  
+  .memory-game {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .memory-card {
+    background: #e91e63;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+  }
+  
+  .memory-card:hover {
+    transform: scale(1.05);
+  }
+  
+  #result {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+  }
+  
+  button:hover {
+    background: #c2185b;
+  }
+  
+  /* Drag-and-Drop Styles */
+  .drag-drop-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .drag-item {
+    background: #e91e63;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: grab;
+  }
+  
+  .drop-zone {
+    background: #fad0c4;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 100px;
+    margin-top: 20px;
+  }

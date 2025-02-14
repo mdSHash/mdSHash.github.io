@@ -1,5 +1,5 @@
 const story = [
-    "Welcome to Fayrous' First Valentine's Adventure!",
+    "Welcome to Fayrous' First Valentine's Adventure! 💖",
     "Let's prepare for Fayrous' arrival by solving some fun puzzles together.",
     "First, let's match some baby items to unlock the next part of the story.",
     "Great job! Now, let's unscramble a word related to love and family.",
@@ -20,7 +20,7 @@ const story = [
     {
       type: "trivia",
       question: "What was the name of the restaurant where you had your first date?",
-      answer: "LOL" // Replace with your actual answer
+      answer: "your answer here" // Replace with your actual answer
     },
     {
       type: "drag-drop",
@@ -72,7 +72,7 @@ const story = [
       setupDragAndDrop();
     }
   }
-  
+    
   function setupMemoryGame() {
     const cards = document.querySelectorAll(".memory-card");
     cards.forEach(card => {

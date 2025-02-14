@@ -20,7 +20,7 @@ const story = [
     {
       type: "trivia",
       question: "What was the name of the restaurant where you had your first date?",
-      answer: "your answer here" // Replace with your actual answer
+      answer: "LOL" // Replace with your actual answer
     },
     {
       type: "drag-drop",
